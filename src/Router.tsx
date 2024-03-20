@@ -6,9 +6,9 @@ import { DefaultLayout } from "./layouts/DefaultLayout";
 export function Router() {
     return (
         <Routes>
-            <Route path="/" element={<DefaultLayout/>}>
-                <Route path="/" element={<HomeBlog/>}/>
-                <Route path="/post/:postId" element={<Post/>}/>
+            <Route path="/Github-blog" element={<DefaultLayout/>}>
+                <Route path="/Github-blog" element={<HomeBlog/>}/>
+                <Route path="/Github-blog/post/:postId" element={<Post/>}/>
             </Route>
         </Routes>
     );

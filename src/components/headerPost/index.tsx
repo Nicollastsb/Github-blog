@@ -13,7 +13,7 @@ export function HeaderPost() {
     return(
         <HeaderPostContainer>
             <HeaderPostTitleContainer>
-                <NavLink to="/" title="Home"><CaretLeft size={12} /> <span>VOLTAR</span> </NavLink>
+                <NavLink to="/Github-blog" title="Home"><CaretLeft size={12} /> <span>VOLTAR</span> </NavLink>
                 <a href={issue.url} target="_blank"> <span>VER NO GITHUB</span> <ArrowSquareOut size={12} /></a>
             </HeaderPostTitleContainer>
             <HeaderPostTextContainer>

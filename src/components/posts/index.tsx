@@ -10,7 +10,7 @@ export function Posts() {
         <PostsContainer>
             {issues && issues.map(issue =>{
                 return (
-                    <Post to={`/Post/${issue.number}`} title="Post" key={issue.id}>
+                    <Post to={`/Github-blog/Post/${issue.number}`} title="Post" key={issue.id}>
                         <PostTitle>
                             <div>{issue.title}</div>
                             <div>
